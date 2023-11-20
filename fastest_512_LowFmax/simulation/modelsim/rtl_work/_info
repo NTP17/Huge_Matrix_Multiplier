@@ -1,0 +1,2702 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/simulation/modelsim
+va_graycounter
+Z1 !s110 1695449906
+!i10b 1
+!s100 7RL@7]^Mkb[^0^A4A<DHg3
+IQ9z4m;3WLjYnRz;EjjLXJ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1634800098
+Z4 8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/../../simlib/altera_mf.v
+Z5 FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/../../simlib/altera_mf.v
+L0 52631
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1695449905.000000
+Z8 !s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/../../simlib/altera_mf.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/../../simlib|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/../../simlib/altera_mf.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/../../simlib}
+Z12 tCvgOpt 0
+vacc32
+Z13 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z14 !s110 1695449904
+!i10b 1
+!s100 G=K6H5leFa_2UiVO2G=3c2
+I?JDM1VLM55bm5f0FeKV:z1
+R2
+!s105 acc32_sv_unit
+S1
+R0
+w1695285252
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/acc32.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/acc32.sv
+L0 1
+R6
+r1
+!s85 0
+31
+Z15 !s108 1695449904.000000
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/acc32.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/acc32.sv|
+!i113 1
+Z16 o-sv -work work
+Z17 !s92 -sv -work work {+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax}
+R12
+vadder16
+R13
+R14
+!i10b 1
+!s100 6Hn>]<O;W_jN6e]A9:S0^1
+IJb:W24YI6IfJ?SKQ6fkJE0
+R2
+!s105 adder16_sv_unit
+S1
+R0
+w1694435788
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder16.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder16.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder16.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder16.sv|
+!i113 1
+R16
+R17
+R12
+vadder17
+R13
+R14
+!i10b 1
+!s100 fP3YhMag5T5G_MkGXgWHP3
+Ila<LO7XaJRR8GdngDGW5M1
+R2
+!s105 adder17_sv_unit
+S1
+R0
+w1694584868
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder17.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder17.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder17.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder17.sv|
+!i113 1
+R16
+R17
+R12
+vadder18
+R13
+R14
+!i10b 1
+!s100 hQz9]3aYAZ^i`[9X0j0ck0
+Ioak4HH;VGYShAlP9T<?lf2
+R2
+!s105 adder18_sv_unit
+S1
+R0
+w1695286176
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder18.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder18.sv
+Z18 L0 39
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder18.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder18.sv|
+!i113 1
+R16
+R17
+R12
+vadder32
+R13
+R14
+!i10b 1
+!s100 5M5El5_<@kMzNloXnEk^90
+ITf9P2C0gO;IJ^PK?C?Q=61
+R2
+!s105 adder32_sv_unit
+S1
+R0
+w1695285250
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder32.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder32.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder32.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder32.sv|
+!i113 1
+R16
+R17
+R12
+valt3pram
+R1
+!i10b 1
+!s100 gzZ=F`Z_`hW`:8J8iJj4O0
+IkSYm5aJaS9FM=CQ[CL55W2
+R2
+R0
+R3
+R4
+R5
+L0 50823
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valt_aeq_s4
+R1
+!i10b 1
+!s100 4azPFSAeTldzFmCD_gOK22
+Im5C904adn2AUYYR2e37@c1
+R2
+R0
+R3
+R4
+R5
+L0 53582
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valt_cal
+R1
+!i10b 1
+!s100 lk8<7RgmmHggboOR[fF0[1
+ISHM6;SJVbF2Xg86jZKD230
+R2
+R0
+R3
+R4
+R5
+L0 53051
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valt_cal_av
+R1
+!i10b 1
+!s100 MmM@[NQXl0EzB=323Qn@43
+IWcDIRIoU=0:=K@e6^AB<:0
+R2
+R0
+R3
+R4
+R5
+L0 53475
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valt_cal_c3gxb
+R1
+!i10b 1
+!s100 IZfciTPclB@nJ_WIS23^W2
+IUm2LQlabUX_g`TAz@?NY:0
+R2
+R0
+R3
+R4
+R5
+L0 53278
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valt_cal_mm
+R1
+!i10b 1
+!s100 G8A^jL54@:QeIRhDih0HS3
+IJJiU807<hj`K^Kj7SkBJC2
+R2
+R0
+R3
+R4
+R5
+L0 53153
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valt_cal_sv
+R1
+!i10b 1
+!s100 gJMhGk_BOV8cJW4:<=nm@2
+IR4kCJW0o27Pa::U9j[`]i1
+R2
+R0
+R3
+R4
+R5
+L0 53378
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valt_dfe
+R1
+!i10b 1
+!s100 BRh?MNcko8BiZ3z[zj;i[2
+Ijd8U@c4`[Llb[z>_P6;zR1
+R2
+R0
+R3
+R4
+R5
+L0 53959
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valt_eyemon
+R1
+!i10b 1
+!s100 CXFGgbk>n1joh`H_AX9Kc2
+I3GF60giWRFz?b=23nb32M3
+R2
+R0
+R3
+R4
+R5
+L0 53679
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valt_fault_injection
+R1
+!i10b 1
+!s100 VJoWGAl]MK3ig9;O`4bhb3
+ImhMFn5JTJV_jA8o6aXV9I2
+R2
+R0
+R3
+R4
+R5
+L0 56027
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtaccumulate
+R1
+!i10b 1
+!s100 ]J^>>M@KIe6:;k?@cL6jK0
+IT8dIAm5?n=ZfahSHIjLRd1
+R2
+R0
+R3
+R4
+R5
+L0 34798
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtclklock
+R1
+!i10b 1
+!s100 dZP2fY7[X6OBenFPi2M3>2
+IG1N=X_gccl1cJiP@88L>02
+R2
+R0
+R3
+R4
+R5
+L0 45468
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtddio_bidir
+R1
+!i10b 1
+!s100 d6h;ie5E87J34ZiR_`WGP0
+I5KS:Ima19[O9dzhDAIZ;R1
+R2
+R0
+R3
+R4
+R5
+L0 46908
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtddio_in
+R1
+!i10b 1
+!s100 RYI1C30fJj7N8Y0J5dRbG3
+IMm6:10^?;9clc;?boIU0W2
+R2
+R0
+R3
+R4
+R5
+L0 46394
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtddio_out
+R1
+!i10b 1
+!s100 S];mG5k@6gz9bKEQ>6@]V2
+Ij>7GIdhLHD8>`MHi5Y_OI0
+R2
+R0
+R3
+R4
+R5
+L0 46657
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtdpram
+R1
+!i10b 1
+!s100 BE726jY[MoUWTU>>?R`hZ1
+Ii1^5O;[i3Y]]BlHdK<4o51
+R2
+R0
+R3
+R4
+R5
+L0 47047
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vALTERA_DEVICE_FAMILIES
+Z19 !s110 1695449905
+!i10b 1
+!s100 g5AaI^Fb2<aM@cCC[B8PB1
+ImfWU7g:DIkGDVZVUhlLYd2
+R2
+R0
+R3
+R4
+R5
+L0 1433
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+vALTERA_MF_HINT_EVALUATION
+R19
+!i10b 1
+!s100 PH5i_RH6C@2cMRnc4>ae12
+I:<ZJgOKTk9E0bGKiBPSRT0
+R2
+R0
+R3
+R4
+R5
+L0 1311
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+vALTERA_MF_MEMORY_INITIALIZATION
+R19
+!i10b 1
+!s100 nTma^h04MOBz8;HdmmAdW1
+I@?E44FzQMEClenKYe[>D13
+R2
+R0
+R3
+R4
+R5
+L0 72
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@a@l@t@e@r@a_@m@f_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+valtera_std_synchronizer
+R1
+!i10b 1
+!s100 73oR:1^=Z92Ban=;X:`af1
+IK?V][SIiZo9WcWA`H3`^B0
+R2
+R0
+R3
+R4
+R5
+L0 52857
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtera_std_synchronizer_bundle
+R1
+!i10b 1
+!s100 OfKYR0eUALmFJ<mX=F8ko1
+I;g5EO?_G1_iYEEFbX?d1c2
+R2
+R0
+R3
+R4
+R5
+L0 53016
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtera_syncram_derived
+R1
+!i10b 1
+!s100 hWa=4zA9QWk>DjHUA9O_03
+IA2ONjiUQUi07g_1Q_8Y;91
+R2
+R0
+R3
+R4
+R5
+L0 31874
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtera_syncram_derived_forwarding_logic
+R1
+!i10b 1
+!s100 JdkVPmcjH;EBkEX<QBT7e1
+ITW7X2[z<0[9L]e6gWhQK61
+R2
+R0
+R3
+R4
+R5
+L0 34709
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtfp_mult
+R1
+!i10b 1
+!s100 c9dLG_`KcV2Q;PQb:iUEk1
+IoWmI4Phn@VGL1<hT@ckUY2
+R2
+R0
+R3
+R4
+R5
+L0 44581
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtlvds_rx
+R19
+!i10b 1
+!s100 2Y4ZZW>if;en6Z^jCO^n13
+Ij?UikUHJboc7I9?=d8l[U0
+R2
+R0
+R3
+R4
+R5
+L0 23845
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtlvds_tx
+R19
+!i10b 1
+!s100 OXR24gD?SE>T=0Bm]Ig>X3
+IUQWc1NQ9P=F`<7MFK=1]E1
+R2
+R0
+R3
+R4
+R5
+L0 27431
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtmult_accum
+R1
+!i10b 1
+!s100 DiYBWLQQ0V7IkzHZ9PD3z0
+I<PhIB`k]CRoNG9hRHKJhK2
+R2
+R0
+R3
+R4
+R5
+L0 35040
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtmult_add
+R1
+!i10b 1
+!s100 <>@[FFHS;IjA6YnRoVfJm3
+IQnc<Af;BmQcWJD7I2D5H70
+R2
+R0
+R3
+R4
+R5
+L0 37245
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtparallel_flash_loader
+R1
+!i10b 1
+!s100 l5@8GIdLTLzmOe??91YXf3
+I=T]0><INEYILJV8J@5I0@1
+R2
+R0
+R3
+R4
+R5
+L0 55872
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtpll
+R19
+!i10b 1
+!s100 [SX62M8C0J@z:hfdAbBD;3
+IAdAh>Bj^?ME6WiJfhm4NI3
+R2
+R0
+R3
+R4
+R5
+L0 21831
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtserial_flash_loader
+R1
+!i10b 1
+!s100 EaRF`7<5?]9dA?`LT<07V1
+In_9Ua[1gNNGo7i1]a]PVQ0
+R2
+R0
+R3
+R4
+R5
+L0 55993
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtshift_taps
+R1
+!i10b 1
+!s100 N@[0Y=oH5jHLdW[WO`Yi@3
+IVlYU?@I>TbO7WBm[Wi^oY2
+R2
+R0
+R3
+R4
+R5
+L0 52486
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtsource_probe
+R1
+!i10b 1
+!s100 KQ?M2Jc4^@;XBJRANEANe0
+IbB72dQzn^5KdoD5dgl?od1
+R2
+R0
+R3
+R4
+R5
+L0 56153
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtsqrt
+R1
+!i10b 1
+!s100 a[5V9KX9=mLzMafI5YMk83
+I[iA8@:kJ6<Ik6CnkR5_L11
+R2
+R0
+R3
+R4
+R5
+L0 45266
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtsquare
+R1
+!i10b 1
+!s100 4LWWOhDc[``3f`[`h]G9F3
+IF[]0WegYGb1FPm^IM4FaX2
+R2
+R0
+R3
+R4
+R5
+L0 52722
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtstratixii_oct
+R1
+!i10b 1
+!s100 ignJe:gQMC?XzbB?A<V^a0
+IAf<dJkQGm;bdUX2IDzA;C2
+R2
+R0
+R3
+R4
+R5
+L0 55856
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtsyncram
+R1
+!i10b 1
+!s100 K:Qc=Y0o3h>fB?4Q3W7c?1
+IZe^J]XAOV5GleM@z:Yi413
+R2
+R0
+R3
+R4
+R5
+L0 47592
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+valtsyncram_body
+R1
+!i10b 1
+!s100 :nldbX^9KgVY2hWhgE6P^0
+InQ=UAXQUS_LHkb]jFM2Y83
+R2
+R0
+R3
+R4
+R5
+L0 47886
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+varm_m_cntr
+R19
+!i10b 1
+!s100 aE>Dk`dHV;WL1F5DL`IJe0
+Ih8GAnoiZ9zF?ecUX[4Y>20
+R2
+R0
+R3
+R4
+R5
+L0 6560
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+varm_n_cntr
+R19
+!i10b 1
+!s100 XVOhjdU?l`B?8Uf;M45`N2
+I^fdFRi76BW=Nk_B3oldQ51
+R2
+R0
+R3
+R4
+R5
+L0 6640
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+varm_scale_cntr
+R19
+!i10b 1
+!s100 j]gN?cGBNo4nUKi^cZIh[0
+IiIm:?g4715AXc3;z2VFdQ0
+R2
+R0
+R3
+R4
+R5
+L0 6722
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vbinto7seg
+R13
+R14
+!i10b 1
+!s100 [AYf]RP_?7NkcAoL<=b110
+IZUKg@m@Nj6C04HJ>U@eGB3
+R2
+!s105 binto7seg_sv_unit
+S1
+R0
+w1694714095
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/binto7seg.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/binto7seg.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/binto7seg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/binto7seg.sv|
+!i113 1
+R16
+R17
+R12
+vcda_m_cntr
+R19
+!i10b 1
+!s100 :_<zBWUomnj5alzgCU8:]0
+I:;1M90feY2VLz0:88b1eL0
+R2
+R0
+R3
+R4
+R5
+L0 14499
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcda_n_cntr
+R19
+!i10b 1
+!s100 nV^XiEi5JIcj0HOIXaGc03
+I^Q_mVhPCjgOa:mmno0NUX1
+R2
+R0
+R3
+R4
+R5
+L0 14580
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcda_scale_cntr
+R19
+!i10b 1
+!s100 4J1MoLY9=kLfU@38IMIjc2
+In2in:YeQMdzSVL5@JcVPU0
+R2
+R0
+R3
+R4
+R5
+L0 14651
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcounter_for_A
+R13
+Z20 !s110 1695449903
+!i10b 1
+!s100 7]C<QzVU_HSf:?e750zHP2
+Ikn1WL_k7JNfNf@3IbeMS22
+R2
+!s105 counter_for_A_sv_unit
+S1
+R0
+Z21 w1695326151
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_A.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_A.sv
+L0 1
+R6
+r1
+!s85 0
+31
+Z22 !s108 1695449903.000000
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_A.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_A.sv|
+!i113 1
+R16
+R17
+R12
+ncounter_for_@a
+vcounter_for_B
+R13
+R20
+!i10b 1
+!s100 39hjdS2`Je9=IAiXSm>DA1
+I0EXi[8lCdd57oZlEgaz8R3
+R2
+!s105 counter_for_B_sv_unit
+S1
+R0
+R21
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_B.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_B.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_B.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_B.sv|
+!i113 1
+R16
+R17
+R12
+ncounter_for_@b
+vcounter_for_C
+R13
+R20
+!i10b 1
+!s100 0LDUG;VN`9XdQCGf?iDnB3
+IbI^:XomGh5dWR0<_=g<aS1
+R2
+!s105 counter_for_C_sv_unit
+S1
+R0
+R21
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_C.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_C.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_C.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_C.sv|
+!i113 1
+R16
+R17
+R12
+ncounter_for_@c
+vcycloneiiigl_post_divider
+R19
+!i10b 1
+!s100 @9Y`?FFYTN>9NX;gW1OfG1
+I;]@1XTTX7@?JlYL<[Q<am0
+R2
+R0
+R3
+R4
+R5
+L0 18369
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vdcfifo
+R1
+!i10b 1
+!s100 >_QjdB6M?Fk4HL;6^^<ME2
+I<z9_j;WHSnlfm7<_2[UFh3
+R2
+R0
+R3
+R4
+R5
+L0 31729
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vdcfifo_async
+R1
+!i10b 1
+!s100 d5P=n]IHmnOZ9hZz[fWdh1
+InMKWVH7@RgEjCUz4^0fai1
+R2
+R0
+R3
+R4
+R5
+L0 29930
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vdcfifo_dffpipe
+R1
+!i10b 1
+!s100 G6:Pz;PaegaLY=LbNb1aj2
+ImE_f80GAlSgdinF9KLTDP1
+R2
+R0
+R3
+R4
+R5
+L0 29700
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vdcfifo_fefifo
+R1
+!i10b 1
+!s100 [S5CZc=BlVazbZ1>iU@^:0
+I[>j4Q>LRYn3bUdB=i9hB[1
+R2
+R0
+R3
+R4
+R5
+L0 29778
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vdcfifo_low_latency
+R1
+!i10b 1
+!s100 IQ4BkE1m]LoK6d_TWCG603
+IM9f@ZNa0m>WX>586imEPP0
+R2
+R0
+R3
+R4
+R5
+L0 30781
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vdcfifo_mixed_widths
+R1
+!i10b 1
+!s100 S^?Oea^LF1GSb]oH4o;GF3
+I7YoO:^Jni5BLbTigBBO;m2
+R2
+R0
+R3
+R4
+R5
+L0 31399
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vdcfifo_sync
+R1
+!i10b 1
+!s100 Pbi<kMS?7L<S353V86kK^1
+IoU27h9H16cQY`ZTIRTG:G1
+R2
+R0
+R3
+R4
+R5
+L0 30472
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vDFFF
+R13
+R20
+!i10b 1
+!s100 WM]9G==@H2Kd]R4VZ>=:c1
+IE:V^8QWJ@IJ`5m[j[EmbJ2
+R2
+!s105 DFFF_sv_unit
+S1
+R0
+w1694682302
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/DFFF.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/DFFF.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/DFFF.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/DFFF.sv|
+!i113 1
+R16
+R17
+R12
+n@d@f@f@f
+vdffp
+R19
+!i10b 1
+!s100 SnNjJNaU3KC[OThjodVFi2
+IzAm1El>1F`C8zUzoMe25S2
+R2
+R0
+R3
+R4
+R5
+L0 2338
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vdummy_hub
+R1
+!i10b 1
+!s100 i8_deI@ZM`MghmlNU7?Vi2
+ImIgb>246Uh]9>lz5?a73L0
+R2
+R0
+R3
+R4
+R5
+L0 55330
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vedge_enforcer
+R13
+R20
+!i10b 1
+!s100 oXgKP`;TgB`28e>JOc;`;3
+Iz:bRf?T19LC^_9ELC>QXP1
+R2
+!s105 edge_enforcer_sv_unit
+S1
+R0
+w1694667061
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/edge_enforcer.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/edge_enforcer.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/edge_enforcer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/edge_enforcer.sv|
+!i113 1
+R16
+R17
+R12
+vflexible_lvds_rx
+R19
+!i10b 1
+!s100 W9z8MEh:V@SWRS`?S3m8z0
+IGchLz?3GzV;2WNRhziLcH2
+R2
+R0
+R3
+R4
+R5
+L0 25898
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vflexible_lvds_tx
+R1
+!i10b 1
+!s100 jTcRG:ZaXjOM?F8VcYB2<2
+I<FN@Zeai6KadWQCM6;T760
+R2
+R0
+R3
+R4
+R5
+L0 29140
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vjtag_tap_controller
+R1
+!i10b 1
+!s100 AnS3QEzANDB@We7faAz`b0
+IgOfzER?O2f[C0Pa>Pg][C0
+R2
+R0
+R3
+R4
+R5
+L0 54873
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vLABTWO
+R13
+R19
+!i10b 1
+!s100 Tj<NLmEfzgBFRa6>lSRnk2
+INg>em_7zP3PJhWO37RjFF1
+R2
+!s105 LABTWO_sv_unit
+S1
+R0
+w1695369589
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/LABTWO.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/LABTWO.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/LABTWO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/LABTWO.sv|
+!i113 1
+R16
+R17
+R12
+n@l@a@b@t@w@o
+vlcell
+R19
+!i10b 1
+!s100 5QGV:R[KdXJ5TR1bkQiUU0
+IBF=L?Cl_R?D@GPVo@UU_Z0
+R2
+R0
+R3
+R4
+R5
+L0 35
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vMATMUL
+R13
+R19
+!i10b 1
+!s100 YFK_78c_IzgmnR?i5c@kd1
+I9XOA5o68:`=oPdEPgHZ::3
+R2
+!s105 MATMUL_sv_unit
+S1
+R0
+w1694686303
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MATMUL.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MATMUL.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MATMUL.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MATMUL.sv|
+!i113 1
+R16
+R17
+R12
+n@m@a@t@m@u@l
+vMF_cycloneiii_pll
+R19
+!i10b 1
+!s100 i8Pz?4iB:f]]S6g?8liLj1
+IB=^2JWTH]eJT14B@JTY`b2
+R2
+R0
+R3
+R4
+R5
+L0 14778
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@m@f_cycloneiii_pll
+vMF_cycloneiiigl_m_cntr
+R19
+!i10b 1
+!s100 ;Ham8kVCc_eoORKCnKBCm2
+IgY=M9LjL`Rj9ZgUR^?n180
+R2
+R0
+R3
+R4
+R5
+L0 18107
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@m@f_cycloneiiigl_m_cntr
+vMF_cycloneiiigl_n_cntr
+R19
+!i10b 1
+!s100 Y6P6>dF6[=ng@eP]XcCbT1
+InY=[BGf7N<<Y]i8;ad04k0
+R2
+R0
+R3
+R4
+R5
+L0 18188
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@m@f_cycloneiiigl_n_cntr
+vMF_cycloneiiigl_pll
+R19
+!i10b 1
+!s100 ?zF?YB::hdSOAl`J3dMKg0
+IDl0`AWMk9SXzQ?NY562Z62
+R2
+R0
+R3
+R4
+R5
+L0 18458
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@m@f_cycloneiiigl_pll
+vMF_cycloneiiigl_scale_cntr
+R19
+!i10b 1
+!s100 F@V]ZGa7Ngd1a`457Y=:J3
+IC7W_>Kae:<bmoJ=LdK:SW3
+R2
+R0
+R3
+R4
+R5
+L0 18259
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@m@f_cycloneiiigl_scale_cntr
+vMF_pll_reg
+R19
+!i10b 1
+!s100 0HDLA_Ae606hC35WQ6^7]2
+IcB6RNAmFC0J65IcT=Yob@2
+R2
+R0
+R3
+R4
+R5
+L0 2695
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@m@f_pll_reg
+vMF_stratix_pll
+R19
+!i10b 1
+!s100 kITDCAAk7nE?EU[@=@9Oo1
+Idm1B7D2YWBoAMjm@g3gWS1
+R2
+R0
+R3
+R4
+R5
+L0 2754
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@m@f_stratix_pll
+vMF_stratixii_pll
+R19
+!i10b 1
+!s100 m<j8S?b80d7m:cRfTMSCR0
+IlDCzWK>^R:ANXnod37:f=1
+R2
+R0
+R3
+R4
+R5
+L0 6845
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@m@f_stratixii_pll
+vMF_stratixiii_pll
+R19
+!i10b 1
+!s100 >>583Yjn4HPZb7`:4`;I@1
+IXVB3h`2FKJ>:i?`::Gk^d2
+R2
+R0
+R3
+R4
+R5
+L0 10676
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@m@f_stratixiii_pll
+vMUL_BLOCK
+R13
+R14
+!i10b 1
+!s100 YG^_cDG=]`zHFmf^F_hH`1
+I=;KRMeH?i8zlcfDAgb<n21
+R2
+!s105 MUL_BLOCK_sv_unit
+S1
+R0
+w1695323473
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MUL_BLOCK.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MUL_BLOCK.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MUL_BLOCK.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MUL_BLOCK.sv|
+!i113 1
+R16
+R17
+R12
+n@m@u@l_@b@l@o@c@k
+vmultiplier_8816
+R20
+!i10b 1
+!s100 eEJjldEBh1f_@oaQ`URGi3
+I=nSPL;A]NR<F?OWnlKhhQ0
+R2
+R0
+w1695312443
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/multiplier_8816.v
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/multiplier_8816.v
+L0 1
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/multiplier_8816.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/multiplier_8816.v|
+!i113 1
+R10
+Z23 !s92 -vlog01compat -work work {+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax}
+R12
+vparallel_add
+R1
+!i10b 1
+!s100 _@fI510=Fb_[JPi?D;>k70
+I8S33hZ82XfNnJ][9IdN[H1
+R2
+R0
+R3
+R4
+R5
+L0 51506
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vpll_iobuf
+R19
+!i10b 1
+!s100 Y>n^z1AP@XWBOng[;X`=B1
+IkijWZz`BC=2B4I:SZYnV33
+R2
+R0
+R3
+R4
+R5
+L0 2371
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vreg16
+R13
+R14
+!i10b 1
+!s100 6mE^8E7PfA0bN:DIK[Wk]1
+I=nP@o^9YXlY@a?UlRfo<D0
+R2
+!s105 reg16_sv_unit
+S1
+R0
+Z24 w1695326252
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg16.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg16.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg16.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg16.sv|
+!i113 1
+R16
+R17
+R12
+vreg17
+R13
+R14
+!i10b 1
+!s100 a[aaj=83SbgSWLnLaLTjP0
+I?`S:z852?CnG0?iDSebf70
+R2
+!s105 reg17_sv_unit
+S1
+R0
+w1694682448
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg17.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg17.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg17.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg17.sv|
+!i113 1
+R16
+R17
+R12
+vreg18
+R13
+R14
+!i10b 1
+!s100 21Zl4Bc57Affh@jo9KRY:2
+IbgYWZ[<C2:V^ShHzC=]kc1
+R2
+!s105 reg18_sv_unit
+S1
+R0
+R24
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg18.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg18.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg18.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg18.sv|
+!i113 1
+R16
+R17
+R12
+vreg19
+R13
+R14
+!i10b 1
+!s100 L19^_F;emElkS=Ke64Ge;1
+IWlTYeR3G7B[SYR2zILH5=3
+R2
+!s105 reg19_sv_unit
+S1
+R0
+w1695285248
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg19.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg19.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg19.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg19.sv|
+!i113 1
+R16
+R17
+R12
+vreg32
+R13
+R14
+!i10b 1
+!s100 T@8Tg=;?;aYTmTaJJWYZE2
+IhWh^7I>Y2APfURgAJ6<8A0
+R2
+!s105 reg32_sv_unit
+S1
+R0
+w1695326253
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg32.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg32.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg32.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg32.sv|
+!i113 1
+R16
+R17
+R12
+vromA_128x128
+R20
+!i10b 1
+!s100 dQNf869Ij4gmg<>4f6Rd01
+IL@@LeG5LN@U_U4zDiJ^iI2
+R2
+R0
+w1695122710
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romA_128x128.v
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romA_128x128.v
+R18
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romA_128x128.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romA_128x128.v|
+!i113 1
+R10
+R23
+R12
+nrom@a_128x128
+vromB_128x1
+R20
+!i10b 1
+!s100 Xh>e?ib?YoQ3]4zmPjI:Q0
+IUGz>hl6SnSme21F1A<FLS2
+R2
+R0
+Z25 w1693778832
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romB_128x1.v
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romB_128x1.v
+R18
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romB_128x1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romB_128x1.v|
+!i113 1
+R10
+R23
+R12
+nrom@b_128x1
+vromC_128x1
+R20
+!i10b 1
+!s100 DHMgQ@gaCNNA]A;5gFiIJ2
+I@NC^CSGUkdzNUg]PJn?D`2
+R2
+R0
+R25
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1.v
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1.v
+R18
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1.v|
+!i113 1
+R10
+R23
+R12
+nrom@c_128x1
+vromC_128x1_T
+R13
+R14
+!i10b 1
+!s100 VR4[2dgP^cn^GFQD8h4CY2
+I@cbaUOff0`ol6gOe@eZzn3
+R2
+!s105 romC_128x1_T_sv_unit
+S1
+R0
+w1694667179
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1_T.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1_T.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1_T.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1_T.sv|
+!i113 1
+R16
+R17
+R12
+nrom@c_128x1_@t
+vscfifo
+R1
+!i10b 1
+!s100 =oNbmn[I6Z1hI6gMi^LH=0
+InQjF]DaP:=8E_fgU2PXFB2
+R2
+R0
+R3
+R4
+R5
+L0 51675
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vsegsel
+R13
+R19
+!i10b 1
+!s100 >1kJX?jJ6zd@hVPm24oB00
+I00^g^PXTJ:XSR[F6MTSYz2
+R2
+!s105 segsel_sv_unit
+S1
+R0
+w1694161112
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segsel.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segsel.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segsel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segsel.sv|
+!i113 1
+R16
+R17
+R12
+vsegssel
+R13
+R19
+!i10b 1
+!s100 I03d`mNCUeiZm;Rfgb7A]0
+IoD;eIZ9eK3Rk203]=X3>z2
+R2
+!s105 segssel_sv_unit
+S1
+R0
+w1694714155
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segssel.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segssel.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segssel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segssel.sv|
+!i113 1
+R16
+R17
+R12
+vsignal_gen
+R1
+!i10b 1
+!s100 CFUPOV=I]>[JoSHBml`0O1
+I:o]e``5c>K]9<gnMLKoz<0
+R2
+R0
+R3
+R4
+R5
+L0 54306
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vsld_signaltap
+R1
+!i10b 1
+!s100 ;bNfnE=JkH5`M:Gei65gh3
+Ioo]:WG4hd>lW[[B2mUFlB1
+R2
+R0
+R3
+R4
+R5
+L0 55714
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vsld_virtual_jtag
+R1
+!i10b 1
+!s100 =dP0:]MZD42oAG]526k0F0
+I;f`lTK=N0:R]_Z^e7<DLn1
+R2
+R0
+R3
+R4
+R5
+L0 55587
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vsld_virtual_jtag_basic
+R1
+!i10b 1
+!s100 4=QY<mcj^X^`A]];EEmFH3
+I1jIb?lVcYz>@MTJONl9PH2
+R2
+R0
+R3
+R4
+R5
+L0 56075
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstratix_lvds_rx
+R19
+!i10b 1
+!s100 UTKR]VdDeZT>LbSY;S:H_1
+ImNT1`1iUlh@[RadXakQM=2
+R2
+R0
+R3
+R4
+R5
+L0 25061
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstratix_tx_outclk
+R19
+!i10b 1
+!s100 4Ui3ElJ34X8<LVV9ef0GJ3
+IS8a_Wl_GAT]n1^h<c9ACo3
+R2
+R0
+R3
+R4
+R5
+L0 28931
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstratixgx_dpa_lvds_rx
+R19
+!i10b 1
+!s100 _X]M>KzVkG7lUE9h]U`5`2
+IXfnS@98S>YH5AEn?`RgO=3
+R2
+R0
+R3
+R4
+R5
+L0 25169
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstratixii_lvds_rx
+R19
+!i10b 1
+!s100 knHlz:fg3PUY;ldPQU=DZ2
+I;;mm6;A>=ShoUS?5RPC]H0
+R2
+R0
+R3
+R4
+R5
+L0 25572
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstratixii_tx_outclk
+R19
+!i10b 1
+!s100 5AcP::Tlc9]5j7hkY;D4i0
+I@_RQ@WUMKX@2DjQ_ZLUWg3
+R2
+R0
+R3
+R4
+R5
+L0 29039
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstratixiii_lvds_rx
+R19
+!i10b 1
+!s100 40^Sl2;KWo@`CV8djg@0E0
+I^Q=1TTo6n8b5gnTOD`58M0
+R2
+R0
+R3
+R4
+R5
+L0 26371
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstratixiii_lvds_rx_channel
+R19
+!i10b 1
+!s100 nZ15@anWcG^ZUo9aDeUok0
+IbEOeg55gFjYOaBkfXmD@V3
+R2
+R0
+R3
+R4
+R5
+L0 26553
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstratixiii_lvds_rx_dpa
+R19
+!i10b 1
+!s100 UYlQ7Hb1fEX5K=N[1TOTO1
+I_Gg[SJoZ>fon>mh5VBFVf3
+R2
+R0
+R3
+R4
+R5
+L0 27162
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstratixv_local_clk_divider
+R19
+!i10b 1
+!s100 CLJ3F]CIGoaoiYzA7@];A1
+Ij7IcRhLlzVAWaC>:JgNCP0
+R2
+R0
+R3
+R4
+R5
+L0 28837
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstx_m_cntr
+R19
+!i10b 1
+!s100 ?>o7Q<XCBPSD4HoGd5:>A0
+I;b9^AR]8_heU`3iU;SSe70
+R2
+R0
+R3
+R4
+R5
+L0 2397
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstx_n_cntr
+R19
+!i10b 1
+!s100 ?P@b:4DafJ_^m9ka]DFD53
+Id6T?1E^lgMf][hIJ<_TNb2
+R2
+R0
+R3
+R4
+R5
+L0 2475
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vstx_scale_cntr
+R19
+!i10b 1
+!s100 a@[2eTC]]LIFm0QFl5WUj2
+ITShRZO<NSC@;mV7A]>F>o1
+R2
+R0
+R3
+R4
+R5
+L0 2560
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vswitch16
+R13
+R14
+!i10b 1
+!s100 iA98i9XehUD]d=`:IXlVF0
+I7IHbL4SUcbO2bPzD]>O:@3
+R2
+!s105 switch16_sv_unit
+S1
+R0
+w1694154333
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/switch16.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/switch16.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/switch16.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/switch16.sv|
+!i113 1
+R16
+R17
+R12
+vTB
+R13
+R19
+!i10b 1
+!s100 F<If<fdNDb876Wj>S=kIm0
+Ih^aHDDPYbSzRYdj]BJMYd2
+R2
+!s105 TB_sv_unit
+S1
+R0
+w1695370285
+8C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv
+FC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax|C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv|
+!i113 1
+R16
+R17
+R12
+n@t@b
+vttn_m_cntr
+R19
+!i10b 1
+!s100 ;3NK]8TY<L]eQ[IJY0gF32
+I9hE3zPKA1?ZHi;6EOBBFQ1
+R2
+R0
+R3
+R4
+R5
+L0 10397
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vttn_n_cntr
+R19
+!i10b 1
+!s100 7nCN0ZiXcEmbIBT5Y>_4a1
+IAXVL9NF6KZE?CTV1T`^DA1
+R2
+R0
+R3
+R4
+R5
+L0 10478
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vttn_scale_cntr
+R19
+!i10b 1
+!s100 _jZZ0@3D`H8_VG516F<O_0
+If<CYbNRVOaFFU4UPOAJ2d3
+R2
+R0
+R3
+R4
+R5
+L0 10549
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

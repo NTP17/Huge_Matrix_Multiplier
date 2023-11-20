@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon Sep 25 11:42:44 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : MATMUL
+Top-level Entity Name : MATMUL
+Family : Cyclone V
+Device : 5CSXFC6D6F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 349 / 41,910 ( < 1 % )
+Total registers : 576
+Total pins : 57 / 499 ( 11 % )
+Total virtual pins : 0
+Total block memory bits : 2,115,584 / 5,662,720 ( 37 % )
+Total RAM Blocks : 273 / 553 ( 49 % )
+Total DSP Blocks : 16 / 112 ( 14 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 0 / 15 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

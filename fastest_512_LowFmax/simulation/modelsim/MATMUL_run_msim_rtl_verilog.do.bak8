@@ -1,0 +1,32 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/romA_128x128.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/romB_128x1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/romC_128x1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/multiplier_8816.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/db {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/db/mult_e5n.v}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/DFFF.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/edge_enforcer.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/counter_for_A.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/counter_for_B.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/counter_for_C.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/switch16.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/romC_128x1_T.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/adder16.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/adder17.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/adder18.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/reg16.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/reg17.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/reg18.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/reg19.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/MUL_BLOCK.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/adder32.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/reg32.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/acc32.sv}
+vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast {C:/Users/ngtph/OneDrive/university_courses/LogicSynthesis/Labs/DONE/SUBMITTED/Lab2/MiNE/fast/LABTWO_wf.sv}
+

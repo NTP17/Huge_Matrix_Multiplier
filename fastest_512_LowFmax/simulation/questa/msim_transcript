@@ -1,0 +1,509 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do MATMUL_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying c:/intelFPGA/22.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romA_128x128.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:02 on Sep 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romA_128x128.v 
+# -- Compiling module romA_128x128
+# 
+# Top level modules:
+# 	romA_128x128
+# End time: 15:42:02 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romB_128x1.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:02 on Sep 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romB_128x1.v 
+# -- Compiling module romB_128x1
+# 
+# Top level modules:
+# 	romB_128x1
+# End time: 15:42:03 on Sep 23,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:03 on Sep 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1.v 
+# -- Compiling module romC_128x1
+# 
+# Top level modules:
+# 	romC_128x1
+# End time: 15:42:03 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/multiplier_8816.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:03 on Sep 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/multiplier_8816.v 
+# -- Compiling module multiplier_8816
+# 
+# Top level modules:
+# 	multiplier_8816
+# End time: 15:42:03 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/DFFF.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:03 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/DFFF.sv 
+# -- Compiling module DFFF
+# 
+# Top level modules:
+# 	DFFF
+# End time: 15:42:03 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/edge_enforcer.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:03 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/edge_enforcer.sv 
+# -- Compiling module edge_enforcer
+# 
+# Top level modules:
+# 	edge_enforcer
+# End time: 15:42:03 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_A.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:03 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_A.sv 
+# -- Compiling module counter_for_A
+# 
+# Top level modules:
+# 	counter_for_A
+# End time: 15:42:03 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_B.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:03 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_B.sv 
+# -- Compiling module counter_for_B
+# 
+# Top level modules:
+# 	counter_for_B
+# End time: 15:42:03 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_C.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:03 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/counter_for_C.sv 
+# -- Compiling module counter_for_C
+# 
+# Top level modules:
+# 	counter_for_C
+# End time: 15:42:03 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1_T.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:03 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romC_128x1_T.sv 
+# -- Compiling module romC_128x1_T
+# 
+# Top level modules:
+# 	romC_128x1_T
+# End time: 15:42:03 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/switch16.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:03 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/switch16.sv 
+# -- Compiling module switch16
+# 
+# Top level modules:
+# 	switch16
+# End time: 15:42:03 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder16.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:03 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder16.sv 
+# -- Compiling module adder16
+# 
+# Top level modules:
+# 	adder16
+# End time: 15:42:04 on Sep 23,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder17.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:04 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder17.sv 
+# -- Compiling module adder17
+# 
+# Top level modules:
+# 	adder17
+# End time: 15:42:04 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder18.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:04 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder18.sv 
+# -- Compiling module adder18
+# 
+# Top level modules:
+# 	adder18
+# End time: 15:42:04 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder32.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:04 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/adder32.sv 
+# -- Compiling module adder32
+# 
+# Top level modules:
+# 	adder32
+# End time: 15:42:04 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg16.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:04 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg16.sv 
+# -- Compiling module reg16
+# 
+# Top level modules:
+# 	reg16
+# End time: 15:42:04 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg17.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:04 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg17.sv 
+# -- Compiling module reg17
+# 
+# Top level modules:
+# 	reg17
+# End time: 15:42:04 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg18.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:04 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg18.sv 
+# -- Compiling module reg18
+# 
+# Top level modules:
+# 	reg18
+# End time: 15:42:04 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg19.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:04 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg19.sv 
+# -- Compiling module reg19
+# 
+# Top level modules:
+# 	reg19
+# End time: 15:42:04 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg32.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:04 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/reg32.sv 
+# -- Compiling module reg32
+# 
+# Top level modules:
+# 	reg32
+# End time: 15:42:04 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MUL_BLOCK.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:04 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MUL_BLOCK.sv 
+# -- Compiling module MUL_BLOCK
+# 
+# Top level modules:
+# 	MUL_BLOCK
+# End time: 15:42:04 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/acc32.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:05 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/acc32.sv 
+# -- Compiling module acc32
+# 
+# Top level modules:
+# 	acc32
+# End time: 15:42:05 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/binto7seg.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:05 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/binto7seg.sv 
+# -- Compiling module binto7seg
+# 
+# Top level modules:
+# 	binto7seg
+# End time: 15:42:05 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segsel.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:05 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segsel.sv 
+# -- Compiling module segsel
+# 
+# Top level modules:
+# 	segsel
+# End time: 15:42:05 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segssel.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:05 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/segssel.sv 
+# -- Compiling module segssel
+# 
+# Top level modules:
+# 	segssel
+# End time: 15:42:05 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/LABTWO.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:05 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/LABTWO.sv 
+# -- Compiling module LABTWO
+# 
+# Top level modules:
+# 	LABTWO
+# End time: 15:42:05 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MATMUL.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:05 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/MATMUL.sv 
+# -- Compiling module MATMUL
+# 
+# Top level modules:
+# 	MATMUL
+# End time: 15:42:05 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:05 on Sep 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv 
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 15:42:05 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/../../simlib {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/../../simlib/altera_mf.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:42:05 on Sep 23,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/../../simlib" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/../../simlib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 15:42:06 on Sep 23,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" TB 
+# Start time: 15:42:06 on Sep 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romA_128x128.v(69): (vopt-2685) [TFMPC] - Too few port connections for 'altsyncram_component'.  Expected 23, found 22.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/romA_128x128.v(69): (vopt-2718) [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 12, found 5.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'DISP5'.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'DISP4'.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'DISP3'.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'DISP2'.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'DISP1'.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'DISP0'.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'SEL'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=10.
+# Loading sv_std.std
+# Loading work.TB(fast)
+# Loading work.LABTWO(fast)
+# Loading work.edge_enforcer(fast)
+# Loading work.DFFF(fast)
+# Loading work.adder17(fast)
+# Loading work.acc32(fast)
+# Loading work.adder32(fast)
+# Loading work.reg32(fast)
+# Loading work.adder18(fast)
+# Loading altera_mf_ver.parallel_add(fast)
+# Loading work.reg17(fast)
+# Loading work.reg18(fast)
+# Loading work.reg19(fast)
+# Loading work.MUL_BLOCK(fast)
+# Loading work.romA_128x128(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.romB_128x1(fast)
+# Loading altera_mf_ver.altsyncram(fast__1)
+# Loading altera_mf_ver.altsyncram_body(fast__1)
+# Loading work.multiplier_8816(fast)
+# Loading work.reg16(fast)
+# Loading work.adder16(fast)
+# Loading work.romC_128x1_T(fast)
+# Loading work.romC_128x1(fast)
+# Loading altera_mf_ver.altsyncram(fast__2)
+# Loading altera_mf_ver.altsyncram_body(fast__2)
+# Loading work.switch16(fast)
+# Loading work.counter_for_C(fast)
+# Loading work.counter_for_B(fast)
+# Loading work.counter_for_A(fast)
+# Loading work.segssel(fast)
+# Loading work.binto7seg(fast)
+# Loading work.segsel(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# @1030: Finished!
+# @1030: The sum is 0f9409cf
+# ** Note: $finish    : C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv(37)
+#    Time: 1040 ps  Iteration: 0  Instance: /TB
+# 1
+# Break in Module TB at C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512_LowFmax/TB.sv line 37
+# End time: 15:45:41 on Sep 23,2023, Elapsed time: 0:03:35
+# Errors: 0, Warnings: 10

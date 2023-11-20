@@ -1,0 +1,41 @@
+`timescale 1ps/1ps
+
+module TB;
+  logic clock;
+  logic  resetN;
+  logic [31:0] results;
+  logic [10:0] cycles;
+
+  LABTWO_wf dut (
+	  .CLK(clock),
+	  .RSTN(resetN),
+	  .RESULT_OUT(results),
+	  .CYCLES_OUT(cycles)
+  );
+
+  initial begin
+    $dumpfile("Lab2_tb.vcd");
+    $dumpvars(0, TB);
+  end
+
+  initial begin
+    clock = 1'b0;
+    forever #1 clock = ~clock;
+  end
+
+  initial begin
+    resetN = 1'b0;
+    #2 resetN = 1'b1;
+  end
+
+  initial begin
+    #2060;
+    $display("@%0t: Finished!", $time);
+    $display("@%0t: The sum is %h", $time, results);
+  end
+ 
+  initial begin
+	 #2060 $finish();
+  end
+
+endmodule

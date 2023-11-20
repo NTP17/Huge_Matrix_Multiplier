@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ngtph/OneDrive/university courses/Logic Syntheis (EE4449_TT01)/Labs/DONE/Lab2/MiNE/fast/simulation/qsim
+vLABTWO_wf
+Z0 !s110 1695306374
+!i10b 1
+!s100 _?LRhNb<9Q>=<FV4CUYEY1
+Ih9?NP2]=8izM86`KF8d;N3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/SUBMITTED/Lab2/MiNE/fastest_512/simulation/qsim
+w1695306372
+Z3 8MATMUL.vo
+Z4 FMATMUL.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1695306374.000000
+Z8 !s107 MATMUL.vo|
+Z9 !s90 -work|work|MATMUL.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@l@a@b@t@w@o_wf
+vLABTWO_wf_vlg_vec_tst
+R0
+!i10b 1
+!s100 9:z]o:IJPl2EnkojaFiP00
+Ik=K^l^?a0Z>=nNcZ]YFC=0
+R1
+R2
+w1695306370
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z12 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@l@a@b@t@w@o_wf_vlg_vec_tst
+vromA_128x128
+Z13 !s110 1695322713
+!i10b 1
+!s100 IGF50309hZbd;KEDUk@9?0
+Img7X9oj3Vn07zQYPPNU?U0
+R1
+R2
+w1695322711
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1695322712.000000
+R8
+R9
+!i113 1
+R10
+R11
+nrom@a_128x128
+vromA_128x128_vlg_vec_tst
+R13
+!i10b 1
+!s100 28TYXc0]@9<V8Rk96Pb>m1
+I?6_eX;VR_T]3OazH=bT:31
+R1
+R2
+w1695322709
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+!s108 1695322713.000000
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+nrom@a_128x128_vlg_vec_tst

@@ -1,0 +1,3 @@
+iverilog -g2005-sv -o MATMUL acc32.sv adder16.sv adder17.sv adder18.sv adder32.sv counter_for_A.sv counter_for_B.sv counter_for_C.sv DFFF.sv edge_enforcer.sv LABTWO_wf.sv MUL_BLOCK.sv reg16.sv reg17.sv reg18.sv reg19.sv reg32.sv romC_128x1_T.sv switch16.sv TB.sv 220model.v altera_mf.v multiplier_8816.v romA_128x128.v romB_128x1.v romC_128x1.v
+
+iverilog -g2005-sv -o MATMUL acc32.sv adder16.sv adder17.sv adder18.sv adder32.sv counter_for_A.sv counter_for_B.sv counter_for_C.sv DFFF.sv edge_enforcer.sv LABTWO_wf.sv MUL_BLOCK.sv reg16.sv reg17.sv reg18.sv reg19.sv reg32.sv romC_128x1_T.sv switch16.sv TB.sv 220model.v altera_mf.v mma.sv romA_128x128.v romB_128x1.v romC_128x1.v altera_lnsim.sv

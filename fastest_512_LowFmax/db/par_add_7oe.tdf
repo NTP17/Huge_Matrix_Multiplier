@@ -1,0 +1,79 @@
+--parallel_add DEVICE_FAMILY="Cyclone V" MSW_SUBTRACT="NO" PIPELINE=0 REPRESENTATION="UNSIGNED" RESULT_ALIGNMENT="LSB" SHIFT=0 SIZE=9 WIDTH=18 WIDTHR=22 data result
+--VERSION_BEGIN 22.1 cbx_cycloneii 2023:07:21:07:12:21:SC cbx_lpm_add_sub 2023:07:21:07:12:21:SC cbx_mgl 2023:07:21:07:12:36:SC cbx_nadder 2023:07:21:07:12:21:SC cbx_padd 2023:07:21:07:12:21:SC cbx_parallel_add 2023:07:21:07:12:21:SC cbx_stratix 2023:07:21:07:12:21:SC cbx_stratixii 2023:07:21:07:12:21:SC cbx_util_mgl 2023:07:21:07:12:21:SC  VERSION_END
+
+
+-- Copyright (C) 2023  Intel Corporation. All rights reserved.
+--  Your use of Intel Corporation's design tools, logic functions 
+--  and other software and tools, and any partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Intel Program License 
+--  Subscription Agreement, the Intel Quartus Prime License Agreement,
+--  the Intel FPGA IP License Agreement, or other applicable license
+--  agreement, including, without limitation, that your use is for
+--  the sole purpose of programming logic devices manufactured by
+--  Intel and sold by Intel or its authorized distributors.  Please
+--  refer to the applicable agreement for further details, at
+--  https://fpgasoftware.intel.com/eula.
+
+
+FUNCTION soft (in)
+RETURNS ( out);
+
+--synthesis_resources = lut 164 
+SUBDESIGN par_add_7oe
+( 
+	data[161..0]	:	input;
+	result[21..0]	:	output;
+) 
+VARIABLE
+	add1_result[19..0]	:	WIRE;
+	add11_result[19..0]	:	WIRE;
+	add16_result[21..0]	:	WIRE;
+	add6_result[19..0]	:	WIRE;
+	sft10a[19..0] : soft;
+	sft12a[19..0] : soft;
+	sft13a[19..0] : soft;
+	sft14a[19..0] : soft;
+	sft15a[19..0] : soft;
+	sft17a[21..0] : soft;
+	sft18a[21..0] : soft;
+	sft19a[21..0] : soft;
+	sft20a[21..0] : soft;
+	sft2a[19..0] : soft;
+	sft3a[19..0] : soft;
+	sft4a[19..0] : soft;
+	sft5a[19..0] : soft;
+	sft7a[19..0] : soft;
+	sft8a[19..0] : soft;
+	sft9a[19..0] : soft;
+	w308w	: WIRE;
+	w580w[21..0]	: WIRE;
+
+BEGIN 
+	add1_result[] = sft2a[].out + sft3a[].out + sft4a[].out;
+	add11_result[] = sft12a[].out + sft13a[].out + sft14a[].out;
+	add16_result[] = sft17a[].out + sft18a[].out + sft19a[].out;
+	add6_result[] = sft7a[].out + sft8a[].out + sft9a[].out;
+	sft10a[].in = add6_result[];
+	sft12a[].in = ( w308w, ( w308w, ( data[143..143], ( data[142..142], ( data[141..141], ( data[140..140], ( data[139..139], ( data[138..138], ( data[137..137], ( data[136..136], ( data[135..135], ( data[134..134], ( data[133..133], ( data[132..132], ( data[131..131], ( data[130..130], ( data[129..129], ( data[128..128], ( data[127..126])))))))))))))))))));
+	sft13a[].in = ( w308w, ( w308w, ( data[17..17], ( data[16..16], ( data[15..15], ( data[14..14], ( data[13..13], ( data[12..12], ( data[11..11], ( data[10..10], ( data[9..9], ( data[8..8], ( data[7..7], ( data[6..6], ( data[5..5], ( data[4..4], ( data[3..3], ( data[2..2], ( data[1..0])))))))))))))))))));
+	sft14a[].in = ( w308w, ( w308w, ( data[161..161], ( data[160..160], ( data[159..159], ( data[158..158], ( data[157..157], ( data[156..156], ( data[155..155], ( data[154..154], ( data[153..153], ( data[152..152], ( data[151..151], ( data[150..150], ( data[149..149], ( data[148..148], ( data[147..147], ( data[146..146], ( data[145..144])))))))))))))))))));
+	sft15a[].in = add11_result[];
+	sft17a[].in = ( w308w, ( w308w, ( sft5a[19..19].out, ( sft5a[18..18].out, ( sft5a[17..17].out, ( sft5a[16..16].out, ( sft5a[15..15].out, ( sft5a[14..14].out, ( sft5a[13..13].out, ( sft5a[12..12].out, ( sft5a[11..11].out, ( sft5a[10..10].out, ( sft5a[9..9].out, ( sft5a[8..8].out, ( sft5a[7..7].out, ( sft5a[6..6].out, ( sft5a[5..5].out, ( sft5a[4..4].out, ( sft5a[3..3].out, ( sft5a[2..2].out, ( sft5a[1..1].out, sft5a[0..0].out)))))))))))))))))))));
+	sft18a[].in = ( w308w, ( w308w, ( sft10a[19..19].out, ( sft10a[18..18].out, ( sft10a[17..17].out, ( sft10a[16..16].out, ( sft10a[15..15].out, ( sft10a[14..14].out, ( sft10a[13..13].out, ( sft10a[12..12].out, ( sft10a[11..11].out, ( sft10a[10..10].out, ( sft10a[9..9].out, ( sft10a[8..8].out, ( sft10a[7..7].out, ( sft10a[6..6].out, ( sft10a[5..5].out, ( sft10a[4..4].out, ( sft10a[3..3].out, ( sft10a[2..2].out, ( sft10a[1..1].out, sft10a[0..0].out)))))))))))))))))))));
+	sft19a[].in = ( w308w, ( w308w, ( sft15a[19..19].out, ( sft15a[18..18].out, ( sft15a[17..17].out, ( sft15a[16..16].out, ( sft15a[15..15].out, ( sft15a[14..14].out, ( sft15a[13..13].out, ( sft15a[12..12].out, ( sft15a[11..11].out, ( sft15a[10..10].out, ( sft15a[9..9].out, ( sft15a[8..8].out, ( sft15a[7..7].out, ( sft15a[6..6].out, ( sft15a[5..5].out, ( sft15a[4..4].out, ( sft15a[3..3].out, ( sft15a[2..2].out, ( sft15a[1..1].out, sft15a[0..0].out)))))))))))))))))))));
+	sft20a[].in = add16_result[];
+	sft2a[].in = ( w308w, ( w308w, ( data[71..71], ( data[70..70], ( data[69..69], ( data[68..68], ( data[67..67], ( data[66..66], ( data[65..65], ( data[64..64], ( data[63..63], ( data[62..62], ( data[61..61], ( data[60..60], ( data[59..59], ( data[58..58], ( data[57..57], ( data[56..56], ( data[55..54])))))))))))))))))));
+	sft3a[].in = ( w308w, ( w308w, ( data[53..53], ( data[52..52], ( data[51..51], ( data[50..50], ( data[49..49], ( data[48..48], ( data[47..47], ( data[46..46], ( data[45..45], ( data[44..44], ( data[43..43], ( data[42..42], ( data[41..41], ( data[40..40], ( data[39..39], ( data[38..38], ( data[37..36])))))))))))))))))));
+	sft4a[].in = ( w308w, ( w308w, ( data[89..89], ( data[88..88], ( data[87..87], ( data[86..86], ( data[85..85], ( data[84..84], ( data[83..83], ( data[82..82], ( data[81..81], ( data[80..80], ( data[79..79], ( data[78..78], ( data[77..77], ( data[76..76], ( data[75..75], ( data[74..74], ( data[73..72])))))))))))))))))));
+	sft5a[].in = add1_result[];
+	sft7a[].in = ( w308w, ( w308w, ( data[107..107], ( data[106..106], ( data[105..105], ( data[104..104], ( data[103..103], ( data[102..102], ( data[101..101], ( data[100..100], ( data[99..99], ( data[98..98], ( data[97..97], ( data[96..96], ( data[95..95], ( data[94..94], ( data[93..93], ( data[92..92], ( data[91..90])))))))))))))))))));
+	sft8a[].in = ( w308w, ( w308w, ( data[35..35], ( data[34..34], ( data[33..33], ( data[32..32], ( data[31..31], ( data[30..30], ( data[29..29], ( data[28..28], ( data[27..27], ( data[26..26], ( data[25..25], ( data[24..24], ( data[23..23], ( data[22..22], ( data[21..21], ( data[20..20], ( data[19..18])))))))))))))))))));
+	sft9a[].in = ( w308w, ( w308w, ( data[125..125], ( data[124..124], ( data[123..123], ( data[122..122], ( data[121..121], ( data[120..120], ( data[119..119], ( data[118..118], ( data[117..117], ( data[116..116], ( data[115..115], ( data[114..114], ( data[113..113], ( data[112..112], ( data[111..111], ( data[110..110], ( data[109..108])))))))))))))))))));
+	result[21..0] = w580w[21..0];
+	w308w = B"0";
+	w580w[] = ( sft20a[21..21].out, sft20a[20..20].out, sft20a[19..19].out, sft20a[18..18].out, sft20a[17..17].out, sft20a[16..16].out, sft20a[15..15].out, sft20a[14..14].out, sft20a[13..13].out, sft20a[12..12].out, sft20a[11..11].out, sft20a[10..10].out, sft20a[9..9].out, sft20a[8..8].out, sft20a[7..7].out, sft20a[6..6].out, sft20a[5..5].out, sft20a[4..4].out, sft20a[3..3].out, sft20a[2..2].out, sft20a[1..1].out, sft20a[0..0].out);
+END;
+--VALID FILE
